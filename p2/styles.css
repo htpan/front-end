@@ -1,0 +1,40 @@
+/*下面用于设置卡片宽度*/
+body{width: 325px;}
+*{margin: 0 auto;}/*卡片设置居中*/
+/*下面用于设置背景图和卡片边框*/
+    .background{
+        border: 3px solid black;
+        border-radius:5px;
+        padding: 10px;
+        background-image: url("background.png");
+        background-repeat: no-repeat;
+        box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+        font-family: cursive,sans-serif;
+        color:#DCBA8C;
+        }
+
+/*下面用于设置动物图片*/
+    .picture{
+        width: 300px;
+        border: 1px solid black;
+        border-radius:5px;
+        }
+
+/*下面用于设置文本内容*/
+    .content{
+        border: 5px double;
+        line-height: 1.2;
+        /*text-align: left;*/
+        font-size: 0.8em;
+        padding: 10px;
+        }
+
+/*展示动物的趣闻的文本为斜体。*/
+    .funfact{font-style: italic;}
+
+/*删除动物列表项中的圆点。*/
+ul{list-style: none;
+    font-weight: bold;}
+
+/*动物的名字周围使用边框。*/
+h3{border: 5px hidden;}

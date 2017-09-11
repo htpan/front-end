@@ -1,0 +1,63 @@
+
+.logo{
+  margin-top: 30px;
+  width: 70px;
+}  /*logo位置大小调整*/
+
+.line{
+  height: 5px;border:none;border-top:5px solid #7d97ad;
+} /* hr加粗变色*/
+
+.supper-title{
+  font-size: 50px;
+  font-weight: 300;
+} /*第一个标题大小调整*/
+
+.text-gray{
+  color: #7d97ad;
+} /*第二个标题颜色调整*/
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 400;
+} /*字体设置*/
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
